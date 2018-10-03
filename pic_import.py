@@ -10,9 +10,8 @@ def save_pic():
     os.system(cmd)
     pyautogui.click(x=370, y=116)
     pyautogui.click(x=370, y=116, button='right')
-    sleep(0.1)    
+    sleep(0.1)
     pyautogui.click(x=393, y=150)
     sleep(0.3)
     cmd = """osascript -e 'tell app "iTerm2" to activate'"""
     os.system(cmd)
-    
